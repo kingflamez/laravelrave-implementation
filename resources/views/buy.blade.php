@@ -64,6 +64,9 @@
                 <label for="lastname">Last Name</label>
                 <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Enter last name">
             </div>
+            <input type="hidden" name="payment_method" value="both" />
+            <input type="hidden" name="currency" value="NGN" />
+            <input type="hidden" name="country" value="NG" />
             <input type="hidden" name="amount" value="4500" />
             <input type="hidden" name="description" value="Flutterwave Jersey" />
             <button type="submit" class="btn btn-primary">Checkout and Pay</button>
